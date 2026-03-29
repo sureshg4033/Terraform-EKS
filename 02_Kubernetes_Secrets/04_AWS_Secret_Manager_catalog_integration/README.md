@@ -377,7 +377,7 @@ kubectl run mysql-client --rm -it \
   --restart=Never \
   -- mysql -h catalog-mysql -u mydbadmin -p
 
-When prompted for password, enter: kalyandb101
+When prompted for password, enter: sureshdb101
 ```
 
 ### Run SQL Commands
