@@ -178,7 +178,7 @@ kubectl run mysql-client --rm -it \
   -- mysql -h catalog-mysql -u mydbadmin -p
 
 # Database Password
-Database Password: kalyandb101  
+Database Password: sureshdb101  
 ```
 
 Inside MySQL:

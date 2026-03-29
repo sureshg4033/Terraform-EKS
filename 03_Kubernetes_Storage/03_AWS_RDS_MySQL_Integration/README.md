@@ -92,7 +92,7 @@ This Security Group (`sg-092ff60d65289df59` in the example) belongs to your EKS 
 - **Templates:** Free tier or Dev/Test
 - **DB instance identifier:** `mydb3`
 - **Master username:** `mydbadmin`
-- **Master password:** `kalyandb101`
+- **Master password:** `sureshdb101`
 - **Instance class:** `db.t3.micro`
 - **Storage:** (default is fine)
 - **Connectivity:**
@@ -103,7 +103,7 @@ This Security Group (`sg-092ff60d65289df59` in the example) belongs to your EKS 
 - (Optional) Disable **Delete protection** for easy cleanup
 - **Create database**
 
-> 💡 We’re intentionally reusing the same creds `mydbadmin / kalyandb101` for continuity with previous demos.
+> 💡 We’re intentionally reusing the same creds `mydbadmin / sureshdb101` for continuity with previous demos.
 
 ---
 
@@ -121,7 +121,7 @@ kubectl run mysql-client --rm -it \
 When prompted, enter the password:
 
 ```
-kalyandb101
+sureshdb101
 ```
 
 Inside the MySQL shell, create the `catalogdb` schema:
@@ -241,7 +241,7 @@ kubectl run mysql-client --rm -it \
 
 - This command starts a **temporary Pod** named `mysql-client` using the official MySQL image.  
 - It connects directly to your **RDS endpoint** (`mydb3.cxojydmxwly6.us-east-1.rds.amazonaws.com`).  
-- The flag `-u mydbadmin -p` will **prompt you to enter the database password** (`kalyandb101`).  
+- The flag `-u mydbadmin -p` will **prompt you to enter the database password** (`sureshdb101`).  
 - The Pod will be automatically deleted after you exit (`--rm`).
 
 ---
