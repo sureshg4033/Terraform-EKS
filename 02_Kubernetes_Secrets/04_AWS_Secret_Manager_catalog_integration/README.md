@@ -1,5 +1,5 @@
-# Section 09-04: Integrate AWS Secrets Manager with Catalog Microservice (EKS Pod Identity)
-In the previous [step (09-03)](../09_03_AWS_Secrets_Manager_Driver_Setup/), we installed the Secrets Store CSI Driver and AWS Secrets Provider (ASCP). Now, let’s use that setup to mount secrets directly from AWS Secrets Manager into our Catalog microservice.
+# Section 04: Integrate AWS Secrets Manager with Catalog Microservice (EKS Pod Identity)
+In the previous [step (03)](../09_03_AWS_Secrets_Manager_Driver_Setup/), we installed the Secrets Store CSI Driver and AWS Secrets Provider (ASCP). Now, let’s use that setup to mount secrets directly from AWS Secrets Manager into our Catalog microservice.
 
 In this section, we’ll securely connect **AWS Secrets Manager** with our Kubernetes Pods
 to provide MySQL credentials **without ever storing them inside Kubernetes Secrets**.
@@ -70,7 +70,7 @@ aws secretsmanager create-secret \
   --description "MySQL credentials for Catalog microservice" \
   --secret-string '{
       "MYSQL_USER": "mydbadmin",
-      "MYSQL_PASSWORD": "kalyandb101"
+      "MYSQL_PASSWORD": "sureshdb101"
   }'
 
 # List all secrets in your account (filtered by name)
@@ -377,7 +377,7 @@ kubectl run mysql-client --rm -it \
   --restart=Never \
   -- mysql -h catalog-mysql -u mydbadmin -p
 
-When prompted for password, enter: kalyandb101
+When prompted for password, enter: sureshdb101
 ```
 
 ### Run SQL Commands
