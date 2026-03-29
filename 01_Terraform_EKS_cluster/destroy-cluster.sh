@@ -1,10 +1,12 @@
 #!/bin/bash
 set -e
 
+SCRIPT_DIR=$(dirname "$0")
+
 echo "==============================="
 echo "STEP-1: Destroy EKS Cluster"
 echo "==============================="
-cd 02_EKS_terraform_manifests
+cd "$SCRIPT_DIR/02_EKS_terraform_manifests"
 terraform destroy -var-file="environments/dev.tfvars" -auto-approve
 
 echo
@@ -15,7 +17,7 @@ echo
 echo "==============================="
 echo "STEP-2: Destroy VPC"
 echo "==============================="
-cd ../01_VPC_terraform_manifests
+cd "$SCRIPT_DIR/01_VPC_terraform_manifests"
 terraform destroy -auto-approve
 
 echo
