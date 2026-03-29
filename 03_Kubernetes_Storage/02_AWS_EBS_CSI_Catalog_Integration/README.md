@@ -1,4 +1,4 @@
-# **Section 10-02: AWS EBS CSI Integration for Catalog Microservice**
+# **Section 02: AWS EBS CSI Integration for Catalog Microservice**
 
 ## **Learning Objectives**
 

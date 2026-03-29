@@ -1,4 +1,4 @@
-# **Section-10-01: Amazon EBS CSI Driver Install on EKS (with Pod Identity)**
+# **01: Amazon EBS CSI Driver Install on EKS (with Pod Identity)**
 
 ---
 
