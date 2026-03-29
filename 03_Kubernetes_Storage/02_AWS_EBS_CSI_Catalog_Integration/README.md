@@ -15,7 +15,7 @@ By the end of this section, you will:
 
 ### AWS EBS CSI Driver Architecture
 
-![AWS EBS CSI Driver Architecture](images/02-EBS-CSI-Driver-Architecture.png)
+![AWS EBS CSI Driver Architecture](../images/02-EBS-CSI-Driver-Architecture.png)
 
 
 ---

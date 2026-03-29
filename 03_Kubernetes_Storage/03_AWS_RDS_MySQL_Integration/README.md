@@ -17,14 +17,14 @@ By the end of this section, you will be able to:
 ---
 
 ### Why AWS RDS MySQL Database?
-![Why AWS RDS MySQL Database?](images/03-Why-AWS-RDS.png)
+![Why AWS RDS MySQL Database?](../images/03-Why-AWS-RDS.png)
 
 ### Architecture Diagram
-![Amazon RDS MySQL Database Integration with Catalog Microservice](images/04-AWS-RDS-Catalog-Microservice-architecture.png)
+![Amazon RDS MySQL Database Integration with Catalog Microservice](../images/04-AWS-RDS-Catalog-Microservice-architecture.png)
 
 ---
 ### Traffic Flow
-![Traffic Flow: Amazon RDS MySQL Database + Catalog Microservice](images/05-AWS-RDS-Catalog-Microservice.png)
+![Traffic Flow: Amazon RDS MySQL Database + Catalog Microservice](../images/05-AWS-RDS-Catalog-Microservice.png)
 
 ---
 

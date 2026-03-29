@@ -14,7 +14,7 @@
 
 ### AWS EBS CSI Driver Architecture
 
-![AWS EBS CSI Driver Architecture](images/01-EBS-CSI-Driver-Architecture.png)
+![AWS EBS CSI Driver Architecture](../images/01-EBS-CSI-Driver-Architecture.png)
 
 
 ---
