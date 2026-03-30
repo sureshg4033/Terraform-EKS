@@ -9,6 +9,7 @@ Write-Host "STEP-1: Create VPC using Terraform"
 Write-Host "==============================="
 Set-Location "$ScriptDir\01_VPC_terraform_manifests"
 terraform init
+terraform plan
 terraform apply -auto-approve
 
 Write-Host ""
