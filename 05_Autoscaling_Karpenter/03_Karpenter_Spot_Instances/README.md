@@ -1,4 +1,4 @@
-# 17_03: Karpenter Spot Instances - Basic Demo
+# 03: Karpenter Spot Instances - Basic Demo
 
 ## Step-01: Introduction
 

@@ -1,4 +1,4 @@
-# Section 17_01: Karpenter Installation on AWS EKS
+# Section 01: Karpenter Installation on AWS EKS
 
 ## Step-01: Overview
 This section demonstrates how to install and configure **Karpenter**  a Kubernetes cluster autoscaler designed for AWS EKS. Karpenter automatically provisions and manages EC2 instances based on pod scheduling requirements, offering faster scaling, better bin-packing, and cost optimization compared to traditional Cluster Autoscaler.

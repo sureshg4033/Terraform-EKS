@@ -13,23 +13,23 @@ terraform {
       version = "~> 2.38.0"
     }
     helm = {
-      source  = "hashicorp/helm"
+      source = "hashicorp/helm"
       #version = "~> 3.1.0"
       version = "~> 3.0"
     }
     http = {
       source  = "hashicorp/http"
       version = "~> 3.5.0"
-    }    
+    }
   }
 
   # Remote backend configuration using S3 
   backend "s3" {
-    bucket         = "terraform-eks-851563870286-us-east-1-an"         
-    key            = "eks/dev/terraform.tfstate"            
-    region         = "us-east-1"                            
-    encrypt        = true                                   
-    use_lockfile   = true     
+    bucket       = "terraform-eks-851563870286-us-east-1-an"
+    key          = "eks/dev/terraform.tfstate"
+    region       = "us-east-1"
+    encrypt      = true
+    use_lockfile = true
   }
 }
 

@@ -1,4 +1,4 @@
-# 17_02: Karpenter On-Demand Instances - Autoscaling Demo
+# 02: Karpenter On-Demand Instances - Autoscaling Demo
 
 ## Step-01: Introduction
 

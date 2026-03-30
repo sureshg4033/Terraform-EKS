@@ -1,4 +1,4 @@
-# **11-01: AWS Load Balancer Controller on EKS (with Pod Identity)**
+# **01: AWS Load Balancer Controller on EKS (with Pod Identity)**
 
 ---
 

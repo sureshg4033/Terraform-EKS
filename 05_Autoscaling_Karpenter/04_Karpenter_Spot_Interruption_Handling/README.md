@@ -1,8 +1,8 @@
-# 17_04: Karpenter Spot Interruption Handling
+# 04: Karpenter Spot Interruption Handling
 
 ## Step-01: Introduction
 
-In the previous demo (17_03), we learned how to provision Spot instances with Karpenter and achieve **70% cost savings**. But there's one critical question we didn't answer:
+In the previous demo (03), we learned how to provision Spot instances with Karpenter and achieve **70% cost savings**. But there's one critical question we didn't answer:
 
 **"What happens when AWS reclaims your Spot instance?"**
 

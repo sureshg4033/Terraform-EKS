@@ -10,9 +10,9 @@ subnet_newbits = 8
 
 # Tags 
 tags = {
-  Terraform   = "true"
-  Project     = "retail-store"
-  Owner       = "Suresh Gopi"
-  Course = " Project on AWS Cloud EKS"
-  Demo = "VPC with Remote Backend Demo"
+  Terraform = "true"
+  Project   = "retail-store"
+  Owner     = "Suresh Gopi"
+  Course    = " Project on AWS Cloud EKS"
+  Demo      = "VPC with Remote Backend Demo"
 }
